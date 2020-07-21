@@ -22,10 +22,7 @@ class Session(models.Model):
 
     instructor_id = fields.Many2one('res.partner', string="Instructor")
     course_id = fields.Many2one('openacademy.course',
-<<<<<<< HEAD
         ondelete='cascade', string="Course", required=True)
     attendee_ids = fields.Many2many('res.partner', string="Attendees")
     description = fields.Text()
-=======
         ondelete='cascade', string="Course", required=True)
->>>>>>> parent of 463264c... MOD course.py n' openacademy.xml for one2many n' many2many relations
