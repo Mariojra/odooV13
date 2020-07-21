@@ -81,6 +81,7 @@
              action="openacademy.course_list_action"
              It is not required when it is the same module -->
 
+<<<<<<< HEAD
         <!-- session form view -->
         <record model="ir.ui.view" id="session_form_view">
             <field name="name">session.form</field>
@@ -129,4 +130,6 @@
                   parent="openacademy_menu"
                   action="session_list_action"/>
 
+=======
+>>>>>>> parent of f998d89... MOD course.py n' openacademy.xml relations between models
 </odoo>
