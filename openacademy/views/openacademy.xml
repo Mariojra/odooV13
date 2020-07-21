@@ -14,13 +14,8 @@
                             <page string="Description">
                                 <field name="description"/>
                             </page>
-                            <page string="Sessions">
-                                <field name="session_ids">
-                                    <tree string="Registered sessions">
-                                        <field name="name"/>
-                                        <field name="instructor_id"/>
-                                    </tree>
-                                </field>
+                            <page string="About">
+                                This is an example of notebooks
                             </page>
                         </notebook>
                     </sheet>
@@ -101,8 +96,6 @@
                                 <field name="seats"/>
                             </group>
                         </group>
-                        <label for="attendee_ids"/>
-                        <field name="attendee_ids"/>
                     </sheet>
                 </form>
             </field>
